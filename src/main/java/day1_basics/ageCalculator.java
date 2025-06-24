@@ -11,6 +11,8 @@ public class ageCalculator {
         Scanner sc = new Scanner(System.in);
         System.out.println("Plese let me know your birth year");
         int dob = sc.nextInt();
+        sc.nextLine();
+//   so that scanner reads other input in future.
         int CurrentYear = LocalDate.now().getYear();
         int age =  CurrentYear - dob;
         System.out.println("You are "+age +" years old.");
