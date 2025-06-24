@@ -5,3 +5,5 @@ It includes beginner-friendly programs such as:
 - Variable Swapping
 - User Input
 - Age Calculator
+- Simple Calendar to chekc if its the leap year and display calendar of month
+  
