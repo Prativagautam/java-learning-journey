@@ -14,5 +14,7 @@ public class Userinputdemo {
         System.out.println("How long do you invest daily?");
         int x = sc.nextInt();
         System.out.println("So you invest" + x + "hours daily in learning java");
+            sc.close();
+
     }
 }

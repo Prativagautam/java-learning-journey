@@ -35,7 +35,9 @@ public class CalendarTool {
         int lengthOfMonth = firstDayOfMonth.lengthOfMonth();
         DayOfWeek startDay = firstDayOfMonth.getDayOfWeek();
 
-        System.out.printf("\n🗓️  Calendar for %s %d\n", firstDayOfMonth.getMonth(), year);
+        System.out.printf("\n Calendar for %s %d\n", firstDayOfMonth.getMonth(), year);
+        //System.out.println(" Calendar for " + firstDayOfMonth.getMonth() + " " + year);
+
         System.out.println("Sun Mon Tue Wed Thu Fri Sat");
 
         int startIndex = startDay.getValue() % 7; // Convert Sunday = 0, Monday = 1, ..., Saturday = 6
@@ -58,7 +60,7 @@ public class CalendarTool {
         Scanner sc = new Scanner(System.in);
         boolean running = true;
 
-        System.out.println("📆 Welcome to Java Calendar Tool!");
+        System.out.println(" Welcome to Java Calendar Tool!");
 
         while (running) {
             System.out.println("\n MENU:");

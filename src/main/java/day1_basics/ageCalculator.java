@@ -16,5 +16,6 @@ public class ageCalculator {
         int CurrentYear = LocalDate.now().getYear();
         int age =  CurrentYear - dob;
         System.out.println("You are "+age +" years old.");
+        sc.close();
     }
 }
