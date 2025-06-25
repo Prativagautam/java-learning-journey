@@ -1,15 +1,5 @@
-# java-learning-journey
-A structured Java learning repository covering core concepts, practice problems and progress logs.
-<<<<<<< HEAD
-Add commentMore actions
-=======
->>>>>>> 06a88237054a549da2628ff6ed2c88d8331b7fea
-It includes beginner-friendly programs such as:
-- Hello World
-- Variable Swapping
-- User Input
-<<<<<<< HEAD
-- Age Calculator
-=======
-- Age Calculator
->>>>>>> 06a88237054a549da2628ff6ed2c88d8331b7fea
+# Java Learning Journey
+
+✅ Day 1: Basics completed like swapping of variable and userinput demo.  
+✅ Day 2: Calendar tool with menu added to check leap year and display calendar of month.
+✅ Day 3: GUI program added.
