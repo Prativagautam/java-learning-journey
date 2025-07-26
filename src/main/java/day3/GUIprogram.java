@@ -1,4 +1,4 @@
-package day3;
+package Day3;
 import java.awt.event.*;
 import javax.swing.*;
 public class GUIprogram {
